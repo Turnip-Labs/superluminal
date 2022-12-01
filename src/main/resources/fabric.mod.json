@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "superluminal",
+  "version": "${version}",
+
+  "name": "Superluminal",
+  "description": "This mod increases max flight speed in creative mode.",
+  "authors": [
+    "Turnip Labs"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "turniplabs.superluminal.Superluminal"
+    ]
+  },
+  "mixins": [
+      "superluminal.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3"
+  },
+  "suggests": {
+  }
+}
